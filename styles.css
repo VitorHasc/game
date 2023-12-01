@@ -1,0 +1,71 @@
+#titu  {
+    text-align: center;
+    margin-left: 2%;
+}
+
+body {
+    background-image: url(35606.jpg);
+    background-size: cover;
+    background-position-y: 5%;
+}
+
+.buracos {
+    display: grid;
+    grid-template-columns: 10% 10% 10%;
+    gap: 6%;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.hole {
+    width: 100%;
+}
+
+.toupeira{
+    position: absolute;
+    margin-top: -11%;
+    width: 10%;
+}
+
+.placar{
+    background-color: rgb(51, 102, 255, 0.6);
+    padding-right: 10%;
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.pontuacao{
+    color: white;
+    text-decoration:underline rgb(255, 204, 0);
+}
+
+.time{
+    color: white;
+    text-decoration:underline rgb(255, 204, 0);
+}
+
+#popo{
+    margin-top:-5%;
+    color:white
+}
+
+.botao{
+    margin-left: 37%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(51, 102, 255, 0.7);
+    color: rgb(255, 255, 255);
+    z-index: 1;
+    position: absolute;
+    text-decoration:underline rgb(255, 204, 0)
+}
+
+#timer{
+    margin-top:-5%;
+    color:white
+}
